@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.montesori.controller.MainMenu">
+   <children>
+      <Pane layoutX="193.0" layoutY="51.0" prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <Button fx:id="loadImage" layoutX="50.0" layoutY="140.0" mnemonicParsing="false" onAction="#load" prefHeight="40.0" prefWidth="100.0" text="loadImage" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
